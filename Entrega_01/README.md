@@ -1,7 +1,7 @@
 
 A continuación se presenta una propuesta de investigación periodística elaborada en base a los requerimientos del documento “Entrega 01_enunciado”, considerando tanto antecedentes históricos como el desarrollo actual del circo a partir de los materiales revisados.
 
-I. Presentación de la propuesta
+Presentación de la propuesta
 
 Tema: Del espectáculo con animales al protagonismo humano: cambios éticos y estéticos en el circo contemporáneo.
 
