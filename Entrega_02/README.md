@@ -1,4 +1,4 @@
-#Tema: 
+# Tema: 
 Ocaso del Látigo, Amanecer del Cuerpo: La Transformación de la Identidad Circense frente al Declive del Uso de Animales.
 Justificación: El circo atraviesa una transición histórica donde la exhibición de animales pierde legitimidad social y legal a nivel global. Esta investigación es relevante para entender cómo el modelo de "espectáculo de fieras" se desplaza hacia un "circo contemporáneo" centrado en la narrativa humana, con un enfoque especial en el caso chileno, donde la Ley 20.216 regula pero no prohíbe de forma general el uso de animales.
 Hipótesis: La legitimidad cultural del circo se ha reconfigurado desde un modelo tradicional con animales hacia uno basado en el desempeño humano y el reconocimiento artístico, impulsado por la presión legislativa global y una profesionalización académica distinta a la tradición familiar.
