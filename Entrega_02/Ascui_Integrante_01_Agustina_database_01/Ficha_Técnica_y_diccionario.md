@@ -7,9 +7,15 @@ Características: Datos cualitativos (tipos de prohibición) y cuantitativos (a�
 
 ## Diccionario de datos: 
 | Variable | Descripción | Tipo | Valores Posibles |
+
 | Pais_Caso | Nombre del país o compañía analizada | Texto | Ej: Austria, Cirque du Soleil |
+
 | Tipo_Entidad | Clasifica si el dato es sobre un país o un circo | Texto | País, Compañía | 
+
 | Año_Hito | Año de prohibición o fundación | Entero | AAAA | 
+
 | Uso_Animales | Indica si el espectáculo incluye animales | Booleano | Sí, No | 
+
 | Tipo_Restriccion| Alcance de la ley de protección animal | Texto | Total, Parcial, N/A | 
+
 | Formacion_Predominante| Origen de las habilidades del artista | Texto | Familiar, Académica, Autodidacta |
