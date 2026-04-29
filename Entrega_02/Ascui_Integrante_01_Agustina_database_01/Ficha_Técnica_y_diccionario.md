@@ -8,7 +8,7 @@ Características: Datos cualitativos (tipos de prohibición) y cuantitativos (a�
 ## Diccionario de datos: 
 | Variable | Descripción | Tipo | Valores Posibles |
 
-| Pais_Caso | Nombre del país o compañía analizada | Texto | Ej: Austria, Cirque du Soleil |
+| Pais_Caso | Nombre del país o compañía analizada | Texto | Ej: Austria, Cirque du Soleil|
 
 | Tipo_Entidad | Clasifica si el dato es sobre un país o un circo | Texto | País, Compañía | 
 
