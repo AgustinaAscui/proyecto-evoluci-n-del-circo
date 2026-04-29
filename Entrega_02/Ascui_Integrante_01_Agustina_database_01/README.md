@@ -9,5 +9,7 @@ Fuentes utilizadas: Se eligieron fuentes institucionales chilenas (CNCA, SIGPA) 
 
 Preguntas que responde la base limpia:
 ¿Qué porcentaje de países latinoamericanos ha prohibido los animales en circos comparado con Europa?.
+
 ¿Existe correlación entre la formación académica y el nivel de ingresos en el circo contemporáneo chileno?.
+
 ¿Cómo ha variado la tendencia de uso de animales en los 20 circos más famosos desde 1980 a la fecha?
