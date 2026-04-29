@@ -1,9 +1,9 @@
 # Documentación (Historias de procesos y decisiones)
 ## Limpieza de datos:
 
-Filtrado de Casos: Siguiendo la recomendación de la fuente, se eliminaron encuestas incompletas del catastro chileno para asegurar la integridad de los porcentajes de formación y condiciones laborales, reduciendo la muestra a 500 casos válidos.
+Filtrado de Casos: Se eliminaron encuestas incompletas del catastro chileno para lograr asegurar la integridad de los porcentajes de formación y condiciones laborales. Se reduce así la muestra a 500 casos válidos.
 Estandarización: Se normalizaron los nombres de los países con prohibiciones para cruzar la información de FOUR PAWS y ADI.
-Categorización: Se agruparon las "disciplinas" en macro-categorías (Aéreos, Acrobacia, Payaso) para facilitar visualizaciones futuras, dado que en el circo tradicional existe una alta variabilidad de "otras disciplinas".
+Categorización: Se agruparon las "disciplinas" en macro-categorías (Aéreos, Acrobacia, Payaso) para facilitar visualizaciones futuras, dado que en el circo tradicional existe muchas otras disciplinas.
 
 Fuentes utilizadas: Se eligieron fuentes institucionales chilenas (CNCA, SIGPA) para dar rigor estadístico al caso nacional y ONGs internacionales para el marco legal global.
 
