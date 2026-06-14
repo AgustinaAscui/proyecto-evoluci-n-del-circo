@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "hconcat": [{"data": {"name": "data-7c4163fa77681521c96beac9aa6f355b"}, "mark": {"type": "square", "size": 250, "stroke": "black", "strokeWidth": 1}, "encoding": {"color": {"field": "Color", "legend": null, "scale": null, "type": "nominal"}, "y": {"field": "Etiqueta", "title": "Simbolog\u00eda", "type": "nominal"}}, "height": 250, "width": 180}, {"data": {"name": "data-c58c3c1b64775755ba563eb8ef33087b"}, "mark": {"type": "rect", "stroke": "white", "strokeWidth": 1}, "encoding": {"color": {"field": "Color", "legend": null, "scale": null, "type": "nominal"}, "tooltip": [{"field": "Compa\u00f1\u00eda", "type": "nominal"}, {"field": "Categor\u00eda", "type": "nominal"}, {"field": "Valor", "type": "nominal"}], "x": {"field": "Categor\u00eda", "sort": ["Uso de Animales", "Modelo de Espect\u00e1culo"], "type": "nominal"}, "y": {"field": "Compa\u00f1\u00eda", "sort": null, "type": "nominal"}}, "height": 350, "title": "Adaptaci\u00f3n y Nuevos Modelos Circenses", "width": 300}], "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-7c4163fa77681521c96beac9aa6f355b": [{"Grupo": "Uso de Animales", "Etiqueta": "S\u00ed", "Color": "#800080"}, {"Grupo": "Uso de Animales", "Etiqueta": "No", "Color": "#2ca02c"}, {"Grupo": "Uso de Animales", "Etiqueta": "Parcial", "Color": "#ffd700"}, {"Grupo": "Modelo", "Etiqueta": "Tradicional", "Color": "#d62728"}, {"Grupo": "Modelo", "Etiqueta": "Contempor\u00e1neo", "Color": "#1f77b4"}], "data-c58c3c1b64775755ba563eb8ef33087b": [{"Compa\u00f1\u00eda": "Cirque Medrano", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Cirque Medrano", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Cirque d'Hiver", "Categor\u00eda": "Uso de Animales", "Valor": "Parcial", "Color": "#ffd700"}, {"Compa\u00f1\u00eda": "Cirque d'Hiver", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Circus Krone", "Categor\u00eda": "Uso de Animales", "Valor": "S\u00ed", "Color": "#800080"}, {"Compa\u00f1\u00eda": "Circus Krone", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Ringling Bros. and Barnum & Bailey", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Ringling Bros. and Barnum & Bailey", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Lennon Bros Circus", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Lennon Bros Circus", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Moscow State Circus", "Categor\u00eda": "Uso de Animales", "Valor": "S\u00ed", "Color": "#800080"}, {"Compa\u00f1\u00eda": "Moscow State Circus", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Tihany Spectacular", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Tihany Spectacular", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "New Shanghai Circus", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "New Shanghai Circus", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Circo de Chengdu", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Circo de Chengdu", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Circus Vargas", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Circus Vargas", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Circo Raluy Hist\u00f3rico", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Circo Raluy Hist\u00f3rico", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Big Apple Circus", "Categor\u00eda": "Uso de Animales", "Valor": "Parcial", "Color": "#ffd700"}, {"Compa\u00f1\u00eda": "Big Apple Circus", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Tradicional", "Color": "#d62728"}, {"Compa\u00f1\u00eda": "Circus Oz", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Circus Oz", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "Flying Fruit Fly Circus", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Flying Fruit Fly Circus", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "Cirque du Soleil", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Cirque du Soleil", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "Cirque Plume", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Cirque Plume", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "NoFit State Circus", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "NoFit State Circus", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "Cirkus Cirk\u00f6r", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Cirkus Cirk\u00f6r", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "Fuerza Bruta", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Fuerza Bruta", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}, {"Compa\u00f1\u00eda": "Cirque Ph\u00e9nix", "Categor\u00eda": "Uso de Animales", "Valor": "No", "Color": "#2ca02c"}, {"Compa\u00f1\u00eda": "Cirque Ph\u00e9nix", "Categor\u00eda": "Modelo de Espect\u00e1culo", "Valor": "Contempor\u00e1neo", "Color": "#1f77b4"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
