@@ -1,9 +1,8 @@
 ## Tema: Ocaso del Látigo, Amanecer del Cuerpo: La Transformación de la Identidad Circense frente al Declive del Uso de Animales.
 
-Justificación: La industria circense global vive una metamorfosis. La exhibición de animales, que fue el pilar del modelo desde Philip Astley en 1768
-, ha perdido legitimidad frente a leyes de protección animal y un cambio en la sensibilidad ciudadana
-. Esta investigación es crucial para entender cómo el "espectáculo de fieras" ha dado paso a una narrativa centrada en el cuerpo humano, con Chile como un caso de estudio híbrido donde conviven la resistencia patrimonial familiar y la nueva vanguardia profesional
-.
+# Justificación:
+La industria circense global vive una metamorfosis. La exhibición de animales, que fue el pilar del modelo desde Philip Astley en 1768, ha perdido legitimidad frente a leyes de protección animal y un cambio en la sensibilidad ciudadana. Esta investigación es crucial para entender cómo el "espectáculo de fieras" ha dado paso a una narrativa centrada en el cuerpo humano, con Chile como un caso de estudio híbrido donde conviven la resistencia patrimonial familiar y la nueva vanguardia profesional.
+
 Hipótesis: La legitimidad cultural del circo se ha desplazado desde el asombro por la dominación animal hacia la validación del virtuosismo artístico humano, un cambio impulsado por marcos regulatorios internacionales y una profesionalización académica que rompe con la exclusividad de la herencia familiar.
 Preguntas de investigación:
 ¿Cómo se correlaciona el crecimiento cronológico de las prohibiciones globales con el éxito de los modelos de negocio sin animales?
