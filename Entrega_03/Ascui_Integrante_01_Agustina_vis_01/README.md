@@ -1,10 +1,19 @@
-El relato se divide en tres actos visuales que muestran el declive del uso de animales y el cambio de identidad en el circo.
+# Explicación del proceso de visualización:
 
-## Acto 1: El Ocaso del Látigo (Mundo)
-La primera visualización analiza la Base 1: Mundo. Muestra la cronología de prohibiciones nacionales, evidenciando un aumento drástico en la regulación desde 2005. Países como Austria, Bolivia y Colombia lideraron el movimiento en Latinoamérica y Europa, creando un entorno legal restrictivo que hoy afecta a más de 40 naciones
+## Selección de Aristas: 
+Se decidió no mezclar unidades de análisis. Se crearon tres bases de datos separadas (Mundo, Industria, Chile) para evitar la confusión metodológica señalada en la corrección anterior.
 
-## Acto 2: La Transformación de los Gigantes (Industria)
-Utilizando la Base 2: Industria, esta visualización compara los modelos de espectáculo (Tradicional vs. Contemporáneo) y su relación con el uso de animales. Es evidente que mientras los circos tradicionales como el Ringling Bros tuvieron que eliminar animales en 2017 para adaptarse, el modelo contemporáneo liderado por el Cirque du Soleil nació sin ellos, marcando el estándar de la industria moderna.
+## Codificación Visual:
+Para la arista Mundo, se utilizó un Heatmap para visualizar el estatus legal y un Gráfico de Torta para cuantificar qué especies son las más protegidas. Esto permite ver de un vistazo el peso de la ley sobre la fauna salvaje.
 
-## Acto 3: El Quiebre de la Herencia en Chile
-A partir de la Base 3: Chile, se visualiza el contraste identitario. En el circo tradicional, la formación predominante es la transmisión familiar, mientras que en el contemporáneo existe una ruptura: los artistas provienen de talleres, universidades y escuelas.
+Para la arista Industria, se empleó una Línea de Tiempo que correlaciona el año de fundación con la adopción de modelos contemporáneos, demostrando que la innovación es generacional.
+
+Para la arista Chile, se utilizó una Tabla Comparativa y un Gráfico de Distribución para resaltar la paridad de modelos pero la disparidad en la formación (Familiar vs. Académica).
+Decisiones Técnicas: Se estandarizaron los nombres de los países y se agruparon las categorías de formación (Universitaria, Talleres, Social) bajo el paraguas de "Contemporáneo" para generar un contraste limpio con el modelo "Tradicional" de transmisión familiar.
+
+## Preguntas que responden las visualizaciones:
+¿Cuál es la restricción más común? El Gráfico de Torta revela que la prohibición de "Animales salvajes" es la norma predominante (55,3%).
+
+¿Son los circos contemporáneos una mayoría en la industria famosa? La Línea de Tiempo muestra que la gran mayoría de compañías fundadas después de 1980 prescinde totalmente de animales.
+
+¿Cómo se forman los nuevos artistas en Chile? El Heatmap de agrupaciones muestra que el 100% de las compañías contemporáneas depende de talleres y formación académica, mientras que las empresas tradicionales dependen de la familia.
