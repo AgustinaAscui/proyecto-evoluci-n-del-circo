@@ -1,8 +1,11 @@
+## Base 1 (Mundo): 
+38 filas. Variables: País, Año_Hito, Tipo_de_Restricción, Animales_Afectados, Estatus_Legal. Fuentes: FOUR PAWS y ADI.
 
-## Ficha Técnica de las Bases de Datos:
+## Base 2 (Industria): 
+20 filas. Variables: Compañía, Origen, Año_Fundación, Uso_de_Animales, Modelo_de_Espectáculo, Hito_Adaptación. Fuentes: Wikipedia e Informes Periodísticos.
 
-Base 1: Mundo: Registra prohibiciones por país, año y tipo de animal (Salvajes/Todos). Fuentes: FOUR PAWS y ADI.
+## Base 3 (Chile): 
+30 filas representativas del Catastro CNCA. Variables: Nombre_Agrupación, Tipo_de_Circo, Región, Formación_Predominante, Estructura_Orgánica. Fuente: Catastro de Arte Circense Chileno (2014).
 
-Base 2: Industria: Perfil de 20 compañías líderes, uso de animales e hitos de adaptación. Fuente: "20 Circos más famosos".
-
-Base 3: Chile: Caracterización de 500 artistas (tradicional vs. contemporáneo), ingresos y formación. Fuente: Catastro de Arte Circense (CNCA).
+## Observaciones: 
+Se eliminaron registros incompletos del catastro original chileno para asegurar que los porcentajes de formación fueran estadísticamente válidos para la muestra de 500 artistas analizada en el relato
