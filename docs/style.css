@@ -1,0 +1,202 @@
+/* VARIABLES DEL SISTEMA DE DISEÑO (60/30/10) */
+:root {
+    --bg-dark: #0B0F19;       /* 60% Fondo Teatral */
+    --text-ivory: #F5F5F1;    /* 30% Texto Accesible */
+    --accent-crimson: #A82323;/* 10% Detalle Quirúrgico */
+    --gray-muted: #242B35;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-ivory);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* HERO SECTION */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid var(--accent-crimson);
+}
+
+.hero-content h1 {
+    font-family: var(--font-serif);
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    color: var(--text-ivory);
+    margin-bottom: 0.5rem;
+}
+
+.hero-content h2 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    color: var(--accent-crimson);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.hero-content .bajada {
+    max-width: 800px;
+    font-size: 1.2rem;
+    margin: 0 auto 3rem auto;
+    color: #CCCCCC;
+}
+
+.scroll-indicator {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent-crimson);
+    animation: bounce 2s infinite;
+}
+
+/* SECCIONES NARRATIVAS */
+.content-section {
+    padding: 6rem 10%;
+    border-bottom: 1px solid #1A2333;
+}
+
+.layout-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.layout-two-columns.invert .text-block {
+    grid-column: 2;
+}
+.layout-two-columns.invert .media-block {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.text-block h3, .section-title h3 {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    color: var(--text-ivory);
+    margin-bottom: 1.5rem;
+}
+
+.text-block p {
+    font-size: 1.05rem;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+}
+
+/* VISUALIZACIONES PLACEHOLDERS */
+.visualizacion-placeholder {
+    background-color: var(--gray-muted);
+    height: 400px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 1px dashed var(--accent-crimson);
+}
+
+.placeholder-text {
+    font-size: 0.9rem;
+    color: #888888;
+    text-align: center;
+}
+
+/* GRID 2X2 - ACTO III */
+.grid-2x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.grid-cell {
+    padding: 2rem;
+    background-color: #111724;
+    border-radius: 4px;
+}
+
+.grid-cell h4 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--accent-crimson);
+}
+
+.grid-cell p {
+    font-size: 0.95rem;
+}
+
+/* FOOTER */
+.footer-section {
+    padding: 5rem 20%;
+    text-align: center;
+    background-color: #060911;
+}
+
+.footer-section p em {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    color: #DDDDDD;
+}
+
+.download-container {
+    margin-top: 3rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color: var(--accent-crimson);
+    color: var(--text-ivory);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #821A1A;
+}
+
+.sources-text {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #666666;
+}
+
+/* ANIMACIONES */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+/* RESPONSIVE MÓVIL */
+@media (max-width: 768px) {
+    .layout-two-columns {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .layout-two-columns.invert .text-block { grid-column: 1; }
+    .layout-two-columns.invert .media-block { grid-column: 1; grid-row: auto; }
+    .grid-2x2 { grid-template-columns: 1fr; }
+    .hero-content h1 { font-size: 2.5rem; }
+    .hero-content h2 { font-size: 1.4rem; }
+}
