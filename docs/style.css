@@ -1,18 +1,12 @@
-/* ==========================================================================
-   VARIABLES DEL SISTEMA DE DISEÑO (Regla 60/30/10)
-   ========================================================================== */
 :root {
-    --bg-dark: #0B0F19;         /* 60% Fondo Teatral */
-    --text-ivory: #F5F5F1;      /* 30% Texto Accesible */
-    --accent-crimson: #A82323;  /* 10% Detalle Quirúrgico de Acento */
+    --bg-dark: #0B0F19;       
+    --text-ivory: #F5F5F1;    
+    --accent-crimson: #A82323;
     --gray-muted: #242B35;
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Inter', Helvetica, Arial, sans-serif;
 }
 
-/* ==========================================================================
-   RESETS Y ESTILOS GLOBALES
-   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -27,9 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ==========================================================================
-   BLOQUE 1: PORTADA (HERO SECTION)
-   ========================================================================== */
 .hero-section {
     height: 100vh;
     display: flex;
@@ -40,13 +31,11 @@ body {
     border-bottom: 1px solid var(--accent-crimson);
 }
 
-/* Estilo para tu archivo logo.jpg */
 .site-logo {
-    max-width: 180px;
+    width: 110px;
     height: auto;
     display: block;
     margin: 0 auto 1.5rem auto;
-    border-radius: 4px;
 }
 
 .hero-content h1 {
@@ -80,9 +69,6 @@ body {
     animation: bounce 2s infinite;
 }
 
-/* ==========================================================================
-   SECCIONES NARRATIVAS (ACTOS I Y II)
-   ========================================================================== */
 .content-section {
     padding: 6rem 10%;
     border-bottom: 1px solid #1A2333;
@@ -95,7 +81,6 @@ body {
     align-items: center;
 }
 
-/* Inversión de columnas para ritmo visual alternado */
 .layout-two-columns.invert .text-block {
     grid-column: 2;
 }
@@ -117,7 +102,6 @@ body {
     text-align: justify;
 }
 
-/* Contenedores para evitar colapsos en los iFrames de Plotly */
 .media-block {
     width: 100%;
     min-height: 460px;
@@ -132,9 +116,6 @@ body {
     background-color: transparent;
 }
 
-/* ==========================================================================
-   BLOQUE 4: CUADRÍCULA LOCAL (ACTO III)
-   ========================================================================== */
 .grid-2x2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -148,7 +129,6 @@ body {
     border-radius: 4px;
 }
 
-/* Forzado de tamaño para celdas con gráficos */
 .grid-cell.media-cell {
     min-height: 450px;
     padding: 0 !important;
@@ -166,9 +146,6 @@ body {
     font-size: 0.95rem;
 }
 
-/* ==========================================================================
-   BLOQUE 5: CIERRE (FOOTER SECTION)
-   ========================================================================== */
 .footer-section {
     padding: 5rem 20%;
     text-align: center;
@@ -203,9 +180,6 @@ body {
     color: #666666;
 }
 
-/* ==========================================================================
-   ANIMACIONES Y RESPONSIVE MÓVIL
-   ========================================================================== */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
     40% { transform: translateY(-10px); }
@@ -213,6 +187,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .site-logo {
+        width: 90px;
+    }
     .layout-two-columns {
         grid-template-columns: 1fr;
         gap: 2rem;
