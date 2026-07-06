@@ -31,6 +31,9 @@
 </head>
 
 <body>
+  <div class="reading-progress" aria-hidden="true">
+    <div class="reading-progress__bar"></div>
+  </div>
   <!--
     Barra superior.
     No reemplaza la navegación completa, solo ayuda al lector a ubicarse.
@@ -52,8 +55,11 @@
       <a href="#acto-2">Chile</a>
       <a href="#acto-3">Oficio</a>
       <a href="#metodologia">Metodología</a>
+      <a href="#fuentes">Fuentes</a>
     </div>
   </nav>
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba">↑</button>
 
   <!--
     PORTADA / HERO
@@ -125,17 +131,17 @@
 
       <div class="data-highlights reveal" aria-label="Datos principales">
         <article class="stat-card">
-          <span class="stat-number">38</span>
+          <span class="stat-number counter" data-target="38">0</span>
           <span class="stat-label">países analizados en la base normativa global</span>
         </article>
 
         <article class="stat-card">
-          <span class="stat-number">20</span>
+          <span class="stat-number counter" data-target="20">0</span>
           <span class="stat-label">compañías circenses revisadas para estudiar adaptación industrial</span>
         </article>
 
         <article class="stat-card">
-          <span class="stat-number">30</span>
+          <span class="stat-number counter" data-target="30">0</span>
           <span class="stat-label">agrupaciones chilenas comparadas por formación y estructura</span>
         </article>
       </div>
@@ -155,10 +161,33 @@
         </p>
       </div>
 
+      <div class="mini-timeline reveal" aria-label="Línea de tiempo narrativa">
+        <div class="mini-timeline__item">
+          <span>2002</span>
+          <p>Costa Rica aparece como uno de los primeros hitos regionales.</p>
+        </div>
+        <div class="mini-timeline__item">
+          <span>2005</span>
+          <p>Austria marca un precedente europeo relevante.</p>
+        </div>
+        <div class="mini-timeline__item">
+          <span>2013</span>
+          <p>El debate ético se intensifica con nuevos registros y presión pública.</p>
+        </div>
+        <div class="mini-timeline__item">
+          <span>2016</span>
+          <p>Ringling Bros. jubila sus elefantes.</p>
+        </div>
+        <div class="mini-timeline__item">
+          <span>2023</span>
+          <p>Francia avanza en una prohibición progresiva.</p>
+        </div>
+      </div>
+
       <div class="narrative-block layout-split reveal">
         <div class="text-pane">
           <p>
-            La erradicación de animales en espectáculos de carpa dejó de ser una bandera marginal
+            Como muestra la visualización siguiente, la erradicación de animales en espectáculos de carpa dejó de ser una bandera marginal
             para convertirse en una tendencia global. La muestra normativa reúne 38 países y permite
             observar cómo la discusión se trasladó desde casos aislados hacia un debate internacional
             sobre bienestar animal, legitimidad cultural y nuevas formas de espectáculo.
@@ -408,6 +437,29 @@
         </p>
       </div>
 
+      <div class="process-flow reveal" aria-label="Proceso de trabajo">
+        <article>
+          <span>01</span>
+          <h3>Recolección</h3>
+          <p>Se reunieron datos normativos, casos de industria y registros del sector chileno.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Limpieza</h3>
+          <p>Se separaron las bases para no mezclar países, compañías y agrupaciones.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Análisis</h3>
+          <p>Se buscaron patrones sobre animales, legislación, formación y estructura.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Visualización</h3>
+          <p>Se diseñaron gráficos interactivos para comunicar los hallazgos principales.</p>
+        </article>
+      </div>
+
       <div class="method-grid reveal">
         <article class="method-card">
           <span class="method-number">01</span>
@@ -448,6 +500,48 @@
           <li><code>grafico_chile_contemporaneo.html</code> — caracterización del modelo contemporáneo.</li>
           <li><code>grafico_heatmap_chile.html</code> — comparación general de agrupaciones chilenas.</li>
         </ul>
+      </div>
+    </section>
+
+    <section class="sources-section content-section" id="fuentes">
+      <div class="chapter-header reveal">
+        <p class="chapter-number">Fuentes</p>
+        <h2>Fuentes y materiales consultados</h2>
+        <p class="section-lead">
+          La webstory se construyó con bases de datos propias elaboradas a partir de fuentes institucionales,
+          registros públicos y antecedentes trabajados durante el semestre.
+        </p>
+      </div>
+
+      <div class="sources-grid reveal">
+        <article>
+          <h3>Fuentes de datos</h3>
+          <ul>
+            <li>FOUR PAWS International.</li>
+            <li>Animal Defenders International.</li>
+            <li>Catastro de Arte Circense Chileno, CNCA.</li>
+            <li>Registros documentales y periodísticos sobre compañías circenses.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Fuentes del caso chileno</h3>
+          <ul>
+            <li>Ley 20.216 sobre actividad circense en Chile.</li>
+            <li>Antecedentes legislativos sobre animales amaestrados.</li>
+            <li>Casos judiciales y denuncias públicas vinculadas al uso de animales.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Archivos del proyecto</h3>
+          <ul>
+            <li>Base Mundo: normativa y restricciones.</li>
+            <li>Base Industria: adaptación de compañías.</li>
+            <li>Base Chile: tradición familiar y profesionalización.</li>
+            <li>Visualizaciones interactivas en HTML.</li>
+          </ul>
+        </article>
       </div>
     </section>
   </main>
