@@ -1,282 +1,166 @@
 # Paleta de Colores e Identidad Visual
 
-# Introducción
+## Introducción
 
-La identidad visual de la webstory fue diseñada para apoyar el relato periodístico y facilitar la comprensión de la información presentada.
+La identidad visual de la webstory **Ocaso del Látigo** fue construida a partir de una paleta sobria, oscura y de alto contraste. Esta decisión busca alejarse de la imagen infantil y colorida tradicionalmente asociada al circo, para acercarse a una estética más periodística, teatral y contemporánea.
 
-La selección de colores no responde únicamente a criterios estéticos, sino que busca reforzar el tono de la investigación, mejorar la legibilidad y establecer una identidad visual consistente durante toda la navegación.
-
-La propuesta gráfica fue desarrollada considerando principios de diseño editorial, experiencia de usuario (UX) y accesibilidad, privilegiando una lectura cómoda durante un reportaje de largo formato.
+Los colores utilizados en la página están definidos directamente en el archivo `style.css`, mediante variables CSS. Esto permite mantener una identidad visual consistente en toda la webstory.
 
 ---
 
-# Objetivos de la identidad visual
+# Paleta utilizada en la página
 
-La paleta de colores fue construida con cuatro objetivos principales.
-
-- Facilitar la lectura prolongada.
-- Mantener una identidad visual coherente.
-- Dirigir la atención hacia la información relevante.
-- Reforzar el carácter periodístico del proyecto.
-
-Cada color cumple una función específica dentro de la narrativa visual.
-
----
-
-# Color principal
-
-## Rojo oscuro
-
-Color aproximado:
-
-```
-#7D0F11
-```
-
-### Función
-
-El rojo constituye el principal color de énfasis utilizado durante toda la webstory.
-
-Se utiliza en:
-
-- barra de progreso;
-- botones principales;
-- títulos destacados;
-- indicadores;
-- elementos interactivos;
-- detalles gráficos.
-
-### Justificación
-
-El rojo fue seleccionado debido a su fuerte relación simbólica con el imaginario circense.
-
-Históricamente, este color aparece asociado a elementos característicos del circo como:
-
-- telones;
-- carpas;
-- cortinas teatrales;
-- vestuario;
-- iluminación escénica.
-
-Además, representa visualmente el conflicto central del proyecto:
-
-la transición entre el circo tradicional y el contemporáneo.
-
-Su utilización moderada permite destacar información importante sin saturar visualmente la página.
+| Variable CSS | Color | Código | Uso principal |
+|---|---|---|---|
+| `--bg-dark` | Azul negro profundo | `#0B0F19` | Fondo principal de la página |
+| `--bg-soft` | Azul oscuro | `#111724` | Fondo de secciones secundarias |
+| `--bg-card` | Azul grisáceo oscuro | `#141B2A` | Tarjetas, bloques y contenedores |
+| `--bg-card-light` | Azul grisáceo más claro | `#182235` | Tarjetas secundarias o variaciones |
+| `--text-main` | Marfil claro | `#F6F7EC` | Títulos y texto de alto contraste |
+| `--text-soft` | Gris azulado claro | `#C8CED8` | Párrafos y texto principal |
+| `--text-muted` | Gris medio | `#8F98A8` | Textos auxiliares, subtítulos y descripciones |
+| `--accent` | Rojo oscuro | `#7D0F11` | Botones, barra de progreso y acentos |
+| `--accent-light` | Rojo carmesí | `#A82323` | Hover, detalles activos y énfasis |
+| `--accent-soft` | Rojo transparente | `rgba(125, 15, 17, 0.18)` | Fondos destacados y tarjetas de énfasis |
 
 ---
 
-# Color secundario
+# Función de los colores principales
 
-## Azul oscuro
+## Fondo principal: `#0B0F19`
 
-Color aproximado:
+El color de fondo principal corresponde a un azul negro profundo. Se utiliza en la mayor parte de la interfaz para construir una atmósfera sobria y teatral.
 
-```
-#0B0F19
-```
-
-### Función
-
-Corresponde al color predominante del fondo.
-
-Se utiliza en:
-
-- fondo principal;
-- encabezados;
-- pie de página;
-- secciones narrativas.
-
-### Justificación
-
-Los fondos oscuros generan menor fatiga visual durante lecturas prolongadas y favorecen el contraste con la tipografía clara.
-
-Además, entregan una apariencia sobria que se aproxima al estilo utilizado en reportajes multimedia publicados por medios digitales contemporáneos.
-
-Este color también permite que las visualizaciones destaquen sin competir con otros elementos gráficos.
+Esta elección visual se relaciona con la idea de una sala oscura antes del inicio de una función. También permite que los textos claros y los acentos rojos tengan mayor presencia visual.
 
 ---
 
-# Color de apoyo
+## Fondo de secciones: `#111724`
 
-## Gris azulado
-
-Color aproximado
-
-```
-#C8CED8
-```
-
-### Función
-
-Se utiliza principalmente para:
-
-- párrafos;
-- subtítulos;
-- textos secundarios;
-- elementos descriptivos.
-
-### Justificación
-
-Un blanco completamente puro genera demasiado contraste sobre fondos oscuros.
-
-El uso de un gris claro mejora considerablemente la comodidad de lectura manteniendo una excelente legibilidad.
+Este color se utiliza para diferenciar bloques narrativos sin romper la unidad visual de la página. Permite separar secciones como metodología, cierre o bloques intermedios, manteniendo siempre una estética oscura y coherente.
 
 ---
 
-# Color de énfasis secundario
+## Tarjetas: `#141B2A` y `#182235`
 
-## Marfil
+Estos tonos se usan en tarjetas, contenedores de datos, visualizaciones y bloques destacados.
 
-Color aproximado
-
-```
-#F6F7EC
-```
-
-### Función
-
-Se reserva para:
-
-- títulos;
-- cifras principales;
-- elementos destacados.
-
-### Justificación
-
-Este color proporciona el mayor nivel de contraste respecto al fondo oscuro.
-
-Su utilización permite construir una jerarquía visual clara entre títulos, texto y elementos secundarios.
+Su función principal es ordenar la información y separar visualmente distintos elementos sin utilizar bordes demasiado fuertes. Esto ayuda a que la página se vea limpia y organizada.
 
 ---
 
-# Colores utilizados
+# Colores de texto
 
-|Elemento|Color aproximado|Función|
-|---------|---------------|--------|
-|Fondo principal|#0B0F19|Base de la identidad visual|
-|Fondo de tarjetas|#141B2A|Separación de contenidos|
-|Rojo principal|#7D0F11|Énfasis e interacción|
-|Rojo claro|#A82323|Hover y elementos activos|
-|Texto principal|#F6F7EC|Lectura principal|
-|Texto secundario|#C8CED8|Párrafos|
-|Texto auxiliar|#8F98A8|Información complementaria|
+## Texto principal: `#F6F7EC`
+
+El color marfil se utiliza principalmente en títulos, cifras y elementos de alto impacto visual.
+
+No se utilizó blanco puro porque el contraste excesivo sobre fondo oscuro puede resultar visualmente cansador en lecturas largas. El tono marfil mantiene buena legibilidad y entrega una apariencia más editorial.
 
 ---
 
-# Contraste
+## Texto secundario: `#C8CED8`
 
-Uno de los criterios considerados durante el diseño fue mantener un contraste suficiente entre texto y fondo.
+Este gris azulado claro se utiliza en párrafos y textos principales.
 
-Esto permite:
+Su función es permitir una lectura cómoda durante el recorrido de la webstory, manteniendo suficiente contraste con el fondo oscuro.
 
-- facilitar la lectura;
-- mejorar la accesibilidad;
-- reducir la fatiga visual;
-- aumentar la claridad de los elementos interactivos.
+---
 
-La combinación entre fondos oscuros y tipografía clara fue utilizada de forma consistente durante toda la webstory.
+## Texto auxiliar: `#8F98A8`
+
+Este color se utiliza en subtítulos, descripciones, bajadas secundarias y textos de apoyo.
+
+Permite construir jerarquías visuales, diferenciando la información principal de la información complementaria.
+
+---
+
+# Color de acento
+
+## Rojo oscuro: `#7D0F11`
+
+El rojo oscuro es el color principal de énfasis de la webstory. Aparece en botones, indicadores, elementos de navegación, barra de progreso y detalles visuales.
+
+Este color fue elegido por su relación simbólica con el mundo circense, especialmente con cortinas, telones, carpas y escenarios teatrales. Además, representa visualmente el conflicto central de la investigación: la tensión entre tradición y transformación.
+
+---
+
+## Rojo carmesí: `#A82323`
+
+Este color se utiliza como variación más visible del rojo principal.
+
+Aparece en estados activos, efectos de hover y elementos que necesitan mayor contraste. Su uso permite reforzar la interacción sin agregar colores nuevos a la identidad visual.
+
+---
+
+## Rojo transparente: `rgba(125, 15, 17, 0.18)`
+
+Esta variación se utiliza en fondos suaves o tarjetas de énfasis.
+
+Permite destacar información relevante sin saturar la pantalla ni romper la sobriedad general del diseño.
+
+---
+
+# Relación entre paleta y narrativa
+
+La paleta busca representar la transformación del circo desde dos dimensiones:
+
+1. **La tradición circense**, representada por el rojo oscuro y carmesí, asociado al telón, la carpa, el espectáculo y la tensión dramática.
+2. **La mirada contemporánea**, representada por los fondos oscuros, sobrios y editoriales, que alejan la webstory de una estética infantil y la acercan a un reportaje de investigación.
+
+Esta combinación refuerza la hipótesis del proyecto: el circo no desaparece, sino que transforma su identidad.
 
 ---
 
 # Jerarquía visual
 
-La utilización del color también permite construir distintos niveles de importancia.
+La paleta se organiza en niveles de importancia:
 
-## Nivel 1
+| Nivel | Elemento | Color |
+|---|---|---|
+| 1 | Títulos principales | `#F6F7EC` |
+| 2 | Acentos e interacción | `#7D0F11` / `#A82323` |
+| 3 | Texto principal | `#C8CED8` |
+| 4 | Texto auxiliar | `#8F98A8` |
+| 5 | Fondos y contenedores | `#0B0F19`, `#111724`, `#141B2A` |
 
-Títulos principales.
-
-Color claro de alto contraste.
-
----
-
-## Nivel 2
-
-Subtítulos y encabezados.
-
-Color claro con menor tamaño.
+Esta jerarquía permite que el usuario identifique rápidamente qué elementos son centrales y cuáles cumplen una función secundaria.
 
 ---
 
-## Nivel 3
+# Accesibilidad y legibilidad
 
-Texto principal.
+La combinación entre fondos oscuros y textos claros fue pensada para facilitar la lectura en pantalla.
 
-Gris claro.
+Se evitó el uso de colores saturados en grandes superficies. El rojo se utiliza de manera puntual para no competir con el contenido principal.
 
----
-
-## Nivel 4
-
-Texto auxiliar.
-
-Gris suave.
+El objetivo fue mantener una webstory visualmente atractiva, pero sin perjudicar la comprensión de los datos ni la lectura del texto.
 
 ---
 
-## Nivel 5
+# Coherencia con la webstory
 
-Elementos interactivos.
+La paleta está presente en:
 
-Rojo.
-
-Este sistema permite que el lector identifique rápidamente qué información resulta más importante.
-
----
-
-# Relación con la narrativa
-
-La identidad visual acompaña el desarrollo de la historia.
-
-El rojo aparece principalmente cuando se presentan elementos relacionados con:
-
-- conflicto;
-- transición;
-- cambios;
-- decisiones importantes.
-
-Mientras tanto, los tonos oscuros funcionan como un escenario neutro sobre el cual destacan tanto las visualizaciones como la narrativa periodística.
-
-De esta forma, los colores no cumplen únicamente una función estética, sino también comunicativa.
-
----
-
-# Coherencia gráfica
-
-Todos los elementos de la webstory utilizan la misma identidad visual.
-
-Esto incluye:
-
+- portada;
+- barra de navegación;
 - botones;
-- navegación;
-- tarjetas;
-- gráficos;
-- encabezados;
+- tarjetas de datos;
+- secciones narrativas;
+- metodología;
+- fuentes;
 - pie de página;
-- indicadores;
-- animaciones.
+- barra de progreso;
+- botón “volver arriba”.
 
-La consistencia gráfica permite que el usuario mantenga una experiencia de navegación uniforme desde el inicio hasta el final del reportaje.
-
----
-
-# Influencias de diseño
-
-La propuesta visual toma como referencia el estilo utilizado en reportajes digitales de largo formato publicados por medios internacionales.
-
-Se priorizó una estética limpia y editorial, evitando efectos visuales excesivos que pudieran distraer del contenido principal.
-
-El objetivo fue construir una experiencia centrada en la lectura y en la interpretación de los datos.
+Esto permite que la página mantenga una identidad visual consistente de principio a fin.
 
 ---
 
-# Reflexión Final
+# Conclusión
 
-La paleta de colores constituye un elemento fundamental dentro de la identidad visual de la webstory.
+La paleta de colores de **Ocaso del Látigo** fue diseñada para reforzar el carácter periodístico, teatral y contemporáneo de la investigación.
 
-Su diseño fue pensado para complementar la narrativa periodística, mejorar la experiencia de lectura y reforzar la comunicación de los principales hallazgos de la investigación.
+Los tonos oscuros construyen una atmósfera seria y documental, mientras que los acentos rojos conectan visualmente con el imaginario circense y con la tensión narrativa del proyecto.
 
-Más allá de su función estética, los colores permiten organizar la información, construir jerarquías visuales y dirigir la atención del lector hacia los elementos más relevantes del reportaje.
-
-En conjunto, la identidad visual busca transmitir una imagen sobria, coherente y profesional, acorde con una investigación de periodismo de datos desarrollada en formato digital.
+En conjunto, los colores ayudan a ordenar la información, mejorar la legibilidad y fortalecer el significado de la historia.
