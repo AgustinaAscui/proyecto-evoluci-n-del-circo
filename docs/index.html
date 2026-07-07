@@ -1,32 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!--
-    Webstory: Ocaso del Látigo
-    Archivo: index.html
-
-    Lenguajes usados:
-    - HTML: estructura de la página.
-    - CSS: diseño visual desde style.css.
-    - JavaScript: animaciones y pequeñas interacciones desde script.js.
-    - Plotly: gráficos interactivos incrustados mediante iframes HTML ya existentes.
-
-    Ubicación recomendada en GitHub:
-    /docs/index.html
-  -->
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Ocaso del Látigo | Webstory</title>
   <meta name="description" content="Webstory sobre la transformación de la identidad circense frente al declive del uso de animales.">
 
-  <!-- Fuentes usadas en la identidad visual -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
 
-  <!-- Hoja de estilos principal -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,10 +17,7 @@
   <div class="reading-progress" aria-hidden="true">
     <div class="reading-progress__bar"></div>
   </div>
-  <!--
-    Barra superior.
-    No reemplaza la navegación completa, solo ayuda al lector a ubicarse.
-  -->
+
   <nav class="topbar" aria-label="Navegación principal">
     <a href="#inicio" class="topbar__brand" aria-label="Volver al inicio">
       <span class="brand-mark">ODL</span>
@@ -61,10 +41,6 @@
 
   <button class="back-to-top" type="button" aria-label="Volver arriba">↑</button>
 
-  <!--
-    PORTADA / HERO
-    Esta sección funciona como entrada emocional y periodística.
-  -->
   <header class="hero-section" id="inicio">
     <div class="hero-background" aria-hidden="true"></div>
     <div class="hero-overlay" aria-hidden="true"></div>
@@ -73,14 +49,8 @@
       <img src="logo.jpg" alt="Logo Ocaso del Látigo" class="site-logo">
 
       <p class="eyebrow">Webstory de periodismo de datos</p>
-
-      <h1>
-        Ocaso del Látigo
-      </h1>
-
-      <h2>
-        Cómo el circo dejó atrás los animales y reinventó su identidad.
-      </h2>
+      <h1>Ocaso del Látigo</h1>
+      <h2>Cómo el circo dejó atrás los animales y reinventó su identidad.</h2>
 
       <p class="bajada">
         Una investigación visual sobre la brecha entre el avance cultural global,
@@ -101,18 +71,12 @@
   </header>
 
   <main>
-    <!--
-      INTRODUCCIÓN
-      Presenta la tesis de la webstory antes de entrar a los actos.
-    -->
     <section class="intro-section content-section">
       <div class="intro-grid">
         <div class="section-kicker reveal">La pregunta</div>
 
         <div class="intro-copy reveal">
-          <h2>
-            El circo no desapareció: cambió de protagonista.
-          </h2>
+          <h2>El circo no desapareció: cambió de protagonista.</h2>
 
           <p>
             Durante siglos, el asombro circense estuvo asociado a la exhibición de lo extraordinario:
@@ -147,19 +111,22 @@
       </div>
     </section>
 
-    <!--
-      ACTO I: MUNDO
-    -->
     <section class="content-section chapter" id="acto-1">
       <div class="chapter-header reveal">
         <p class="chapter-number">Acto I</p>
         <h2>La norma global y el despertar cultural</h2>
         <p class="section-lead">
           La regulación internacional revela que el retiro de animales dejó de ser una excepción.
-          En numerosos países, la presión ética y la opinión pública antecedieron o empujaron
-          cambios legales.
+          En numerosos países, la presión ética y la opinión pública antecedieron o empujaron cambios legales.
         </p>
       </div>
+
+      <figure class="story-figure wide reveal">
+        <img src="circo_chileno.jpg" alt="Carpa de circo tradicional chileno en blanco y negro">
+        <figcaption>
+          Figura 1. El circo tradicional se construyó históricamente alrededor de la carpa, la itinerancia y el espectáculo popular.
+        </figcaption>
+      </figure>
 
       <div class="mini-timeline reveal" aria-label="Línea de tiempo narrativa">
         <div class="mini-timeline__item">
@@ -187,17 +154,16 @@
       <div class="narrative-block layout-split reveal">
         <div class="text-pane">
           <p>
-            Como muestra la visualización siguiente, la erradicación de animales en espectáculos de carpa dejó de ser una bandera marginal
-            para convertirse en una tendencia global. La muestra normativa reúne 38 países y permite
-            observar cómo la discusión se trasladó desde casos aislados hacia un debate internacional
-            sobre bienestar animal, legitimidad cultural y nuevas formas de espectáculo.
+            Como muestra el gráfico siguiente, las restricciones no avanzan de manera uniforme:
+            algunos países cuentan con hitos claramente documentados, mientras que otros registros
+            muestran información temporal incompleta. Esa diferencia permite entender que el cambio
+            legal es progresivo y desigual.
           </p>
 
           <p>
-            El gráfico cronológico permite revisar los países con años documentados y distinguir
-            aquellos registros que aún presentan información temporal incompleta. Esta diferencia es
-            relevante: no todos los países avanzaron al mismo ritmo, ni todas las prohibiciones tienen
-            el mismo alcance.
+            La muestra normativa reúne 38 países y permite observar cómo la discusión se trasladó
+            desde casos aislados hacia un debate internacional sobre bienestar animal, legitimidad
+            cultural y nuevas formas de espectáculo.
           </p>
 
           <aside class="insight-card">
@@ -229,16 +195,16 @@
 
         <div class="text-pane">
           <p>
-            El detalle normativo muestra que la categoría más frecuente se concentra en animales
-            salvajes. Esto indica que muchas legislaciones no necesariamente eliminan todo tipo de
-            presencia animal, sino que apuntan primero a especies consideradas incompatibles con
-            la itinerancia, el encierro o el entrenamiento para espectáculo.
+            El segundo gráfico permite ver qué tipo de animales son protegidos con mayor frecuencia.
+            Allí aparece una señal clave para la historia: muchas legislaciones no eliminan todo tipo
+            de presencia animal, sino que apuntan primero a especies salvajes o consideradas incompatibles
+            con el encierro, la itinerancia o el entrenamiento para espectáculo.
           </p>
 
           <p>
-            El cambio legal, sin embargo, no se produjo en el vacío. Documentales, denuncias,
-            campañas de organizaciones animalistas y transformaciones en la sensibilidad de las
-            audiencias alteraron la tolerancia pública frente a las prácticas tradicionales.
+            El cambio legal no se produjo en el vacío. Documentales, denuncias, campañas de organizaciones
+            animalistas y transformaciones en la sensibilidad de las audiencias alteraron la tolerancia
+            pública frente a las prácticas tradicionales.
           </p>
 
           <blockquote>
@@ -246,29 +212,27 @@
           </blockquote>
         </div>
       </div>
+
+      <figure class="story-figure wide reveal">
+        <img src="circo_animales.jpg" alt="Elefante realizando un número en una pista de circo">
+        <figcaption>
+          Figura 2. El uso de animales fue uno de los principales puntos de tensión entre el circo tradicional y las nuevas sensibilidades culturales.
+        </figcaption>
+      </figure>
     </section>
 
-    <!--
-      PUENTE NARRATIVO: INDUSTRIA
-    -->
     <section class="bridge-section">
       <div class="bridge-content reveal">
         <p class="section-kicker">La industria</p>
-        <h2>
-          Algunas compañías se adaptaron. Otras nacieron con un modelo completamente distinto.
-        </h2>
+        <h2>Algunas compañías se adaptaron. Otras nacieron con un modelo completamente distinto.</h2>
         <p>
-          La transición no ocurrió igual en todos los circos. Las compañías históricas debieron
-          responder a presiones éticas y regulatorias, mientras que muchas agrupaciones contemporáneas
-          nacieron directamente sin animales, vinculadas al teatro físico, la música, la danza
-          y la experimentación escénica.
+          La transición no ocurrió igual en todos los circos. Las compañías históricas debieron responder
+          a presiones éticas y regulatorias, mientras que muchas agrupaciones contemporáneas nacieron
+          directamente sin animales, vinculadas al teatro físico, la música, la danza y la experimentación escénica.
         </p>
       </div>
     </section>
 
-    <!--
-      ACTO II: CHILE / LEGISLACIÓN
-    -->
     <section class="content-section chapter" id="acto-2">
       <div class="chapter-header reveal">
         <p class="chapter-number">Acto II</p>
@@ -279,13 +243,20 @@
         </p>
       </div>
 
+      <figure class="story-figure wide reveal">
+        <img src="circo_chile_animales.jpg" alt="Domador con león en un circo chileno histórico">
+        <figcaption>
+          Figura 3. El debate chileno mantiene una tensión entre tradición circense, regulación estatal y bienestar animal.
+        </figcaption>
+      </figure>
+
       <div class="narrative-block layout-split reveal">
         <div class="text-pane">
           <p>
-            Chile representa una contradicción dentro del relato latinoamericano. Mientras otros países
-            de la región avanzaron hacia prohibiciones explícitas, el marco chileno conserva una relación
-            más ambigua con el uso de animales en circos. La Ley 20.216 protege y regula la actividad
-            circense, pero no establece una prohibición general.
+            En el caso chileno, la visualización legislativa permite observar una paradoja: mientras el
+            debate social y cultural avanza, la normativa no se transforma con la misma velocidad.
+            La Ley 20.216 protege y regula la actividad circense, pero no establece una prohibición
+            general del uso de animales.
           </p>
 
           <p>
@@ -312,11 +283,15 @@
           <iframe src="grafico_chile_ley.html" class="chart-frame" title="Línea de tiempo legislativa en Chile"></iframe>
         </div>
       </div>
+
+      <figure class="story-figure wide reveal">
+        <img src="cirque_du_soleil_2.jpg" alt="Escena contemporánea de circo con artistas realizando acrobacia grupal">
+        <figcaption>
+          Figura 4. El circo contemporáneo desplaza el foco hacia el cuerpo humano, la composición escénica y la experiencia visual.
+        </figcaption>
+      </figure>
     </section>
 
-    <!--
-      ACTO III: OFICIO
-    -->
     <section class="content-section chapter" id="acto-3">
       <div class="chapter-header reveal">
         <p class="chapter-number">Acto III</p>
@@ -332,16 +307,13 @@
         <p>
           El circo tradicional chileno se sostiene sobre una lógica familiar e itinerante. Su memoria
           se conserva en apellidos, empresas circenses, rutas de temporada y aprendizaje transmitido
-          de generación en generación. En cambio, el circo contemporáneo aparece asociado a espacios
-          de formación más abiertos: talleres, universidades, proyectos sociales, escuelas independientes
-          y colectivos culturales urbanos.
+          de generación en generación.
         </p>
 
         <p>
-          Esta diferencia no significa que un modelo reemplace completamente al otro. Más bien, la
-          información sugiere una convivencia tensionada: una tradición patrimonial que defiende su
-          continuidad y una nueva escena que reorganiza la identidad circense alrededor del cuerpo,
-          la técnica y la creación interdisciplinaria.
+          En cambio, el circo contemporáneo aparece asociado a espacios de formación más abiertos:
+          talleres, universidades, proyectos sociales, escuelas independientes y colectivos culturales urbanos.
+          Los gráficos siguientes muestran esa diferencia de identidad y organización.
         </p>
       </div>
 
@@ -352,8 +324,7 @@
 
           <p>
             El modelo clásico chileno opera mayoritariamente bajo la figura de empresa circense.
-            La formación se vincula a la transmisión familiar y a la experiencia práctica dentro de
-            la carpa, donde el conocimiento se hereda como parte de una vida de oficio.
+            La formación se vincula a la transmisión familiar y a la experiencia práctica dentro de la carpa.
           </p>
 
           <div class="card-chart">
@@ -365,10 +336,13 @@
           <div class="card-label">Modelo contemporáneo</div>
           <h3>Eje profesionalizado y asociativo</h3>
 
+          <figure class="card-image">
+            <img src="cirque_du_soleil.jpg" alt="Artistas contemporáneos realizando acrobacia aérea">
+          </figure>
+
           <p>
             El nuevo circo chileno se organiza en colectivos, fundaciones, corporaciones o agrupaciones
-            comunitarias. Su formación se vincula a talleres, espacios académicos, proyectos sociales
-            y experiencias interdisciplinarias.
+            comunitarias. Su formación se vincula a talleres, espacios académicos y proyectos sociales.
           </p>
 
           <div class="card-chart">
@@ -380,25 +354,25 @@
       <div class="full-visual reveal">
         <div class="visual-header centered">
           <h3>Mapa comparativo de agrupaciones chilenas</h3>
-          <p>
-            El heatmap resume tipo de circo, formación predominante y estructura orgánica.
-          </p>
+          <p>El heatmap resume tipo de circo, formación predominante y estructura orgánica.</p>
         </div>
 
         <iframe src="grafico_heatmap_chile.html" class="chart-frame tall" title="Heatmap de agrupaciones circenses chilenas"></iframe>
       </div>
+
+      <figure class="story-figure wide reveal">
+        <img src="trapecio.jpg" alt="Trapecista en una función de circo contemporáneo">
+        <figcaption>
+          Figura 5. La transformación del oficio circense se expresa en la centralidad del cuerpo, la técnica y la interpretación escénica.
+        </figcaption>
+      </figure>
     </section>
 
-    <!--
-      CONCLUSIÓN
-    -->
     <section class="closing-section content-section">
       <div class="closing-content reveal">
         <p class="section-kicker">Conclusión</p>
 
-        <h2>
-          La pista cambió antes que la ley.
-        </h2>
+        <h2>La pista cambió antes que la ley.</h2>
 
         <p>
           El repliegue del látigo demuestra que la transformación del circo no depende únicamente
@@ -408,25 +382,18 @@
         </p>
 
         <p>
-          En el mundo, las restricciones legales reducen el espacio del espectáculo animal. En la
-          industria, las compañías contemporáneas consolidan modelos escénicos sin fauna. En Chile,
-          aunque el marco normativo sigue siendo incompleto, el oficio ya se divide entre una tradición
-          familiar viva y una escena profesionalizada que nació mirando hacia el cuerpo humano como
-          centro de la pista.
+          En el mundo, las restricciones legales reducen el espacio del espectáculo animal. En la industria,
+          las compañías contemporáneas consolidan modelos escénicos sin fauna. En Chile, aunque el marco
+          normativo sigue siendo incompleto, el oficio ya se divide entre una tradición familiar viva y una
+          escena profesionalizada que nació mirando hacia el cuerpo humano como centro de la pista.
         </p>
 
         <div class="closing-quote">
-          <p>
-            El circo no perdió su capacidad de asombro: cambió el origen de ese asombro.
-          </p>
+          <p>El circo no perdió su capacidad de asombro: cambió el origen de ese asombro.</p>
         </div>
       </div>
     </section>
 
-    <!--
-      METODOLOGÍA
-      Esta sección sirve para mostrar transparencia y cumplir con la documentación del proceso.
-    -->
     <section class="methodology-section content-section" id="metodologia">
       <div class="chapter-header reveal">
         <p class="chapter-number">Metodología</p>
@@ -446,60 +413,18 @@
         <article>
           <span>02</span>
           <h3>Limpieza</h3>
-          <p>Se separaron las bases para no mezclar países, compañías y agrupaciones.</p>
+          <p>Se separaron las bases para evitar mezclar países, compañías y agrupaciones.</p>
         </article>
         <article>
           <span>03</span>
           <h3>Análisis</h3>
-          <p>Se buscaron patrones sobre animales, legislación, formación y estructura.</p>
+          <p>Se buscaron patrones sobre animales, legislación, formación y estructura organizacional.</p>
         </article>
         <article>
           <span>04</span>
           <h3>Visualización</h3>
           <p>Se diseñaron gráficos interactivos para comunicar los hallazgos principales.</p>
         </article>
-      </div>
-
-      <div class="method-grid reveal">
-        <article class="method-card">
-          <span class="method-number">01</span>
-          <h3>Mundo</h3>
-          <p>
-            Base de datos con países, año de hito, tipo de restricción, animales afectados y estatus legal.
-            Permite observar el avance normativo internacional.
-          </p>
-        </article>
-
-        <article class="method-card">
-          <span class="method-number">02</span>
-          <h3>Industria</h3>
-          <p>
-            Base con compañías emblemáticas, año de fundación, país de origen, uso de animales,
-            modelo de espectáculo e hitos de adaptación.
-          </p>
-        </article>
-
-        <article class="method-card">
-          <span class="method-number">03</span>
-          <h3>Chile</h3>
-          <p>
-            Base representativa de agrupaciones chilenas que compara tipo de circo, región,
-            formación predominante y estructura orgánica.
-          </p>
-        </article>
-      </div>
-
-      <div class="credits-box reveal">
-        <h3>Archivos utilizados en la webstory</h3>
-
-        <ul>
-          <li><code>grafico_mundo.html</code> — visualización normativa global.</li>
-          <li><code>grafico_restricciones.html</code> — detalle de restricciones y animales afectados.</li>
-          <li><code>grafico_chile_ley.html</code> — línea de tiempo del caso chileno.</li>
-          <li><code>grafico_chile_tradicional.html</code> — caracterización del modelo tradicional.</li>
-          <li><code>grafico_chile_contemporaneo.html</code> — caracterización del modelo contemporáneo.</li>
-          <li><code>grafico_heatmap_chile.html</code> — comparación general de agrupaciones chilenas.</li>
-        </ul>
       </div>
     </section>
 
@@ -546,9 +471,6 @@
     </section>
   </main>
 
-  <!--
-    FOOTER
-  -->
   <footer class="footer-section">
     <div class="footer-content">
       <img src="logo.jpg" alt="Logo Ocaso del Látigo" class="footer-logo">
@@ -567,7 +489,6 @@
     </div>
   </footer>
 
-  <!-- Script de interacción. Se agregará en el siguiente archivo: script.js -->
   <script src="script.js"></script>
 </body>
 </html>

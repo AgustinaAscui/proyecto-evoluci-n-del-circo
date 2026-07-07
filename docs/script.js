@@ -1,9 +1,3 @@
-/*
-  Webstory: Ocaso del Látigo
-  Archivo: script.js
-  Ubicación en GitHub: /docs/script.js
-*/
-
 document.addEventListener("DOMContentLoaded", function () {
   const menuBtn = document.querySelector(".topbar__toggle");
   const menu = document.querySelector(".topbar__links");
@@ -58,9 +52,14 @@ document.addEventListener("DOMContentLoaded", function () {
     function actualizar(tiempoActual) {
       const avance = Math.min((tiempoActual - inicio) / duracion, 1);
       const valor = Math.floor(avance * objetivo);
+
       elemento.textContent = valor;
-      if (avance < 1) requestAnimationFrame(actualizar);
-      else elemento.textContent = objetivo;
+
+      if (avance < 1) {
+        requestAnimationFrame(actualizar);
+      } else {
+        elemento.textContent = objetivo;
+      }
     }
 
     requestAnimationFrame(actualizar);
@@ -93,11 +92,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
     const progreso = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
 
-    if (progressBar) progressBar.style.width = progreso + "%";
+    if (progressBar) {
+      progressBar.style.width = progreso + "%";
+    }
 
     if (topbar) {
-      if (scrollTop > 40) topbar.classList.add("topbar--scrolled");
-      else topbar.classList.remove("topbar--scrolled");
+      if (scrollTop > 40) {
+        topbar.classList.add("topbar--scrolled");
+      } else {
+        topbar.classList.remove("topbar--scrolled");
+      }
     }
 
     if (indicador) {
@@ -111,8 +115,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (backToTop) {
-      if (scrollTop > 600) backToTop.classList.add("is-visible");
-      else backToTop.classList.remove("is-visible");
+      if (scrollTop > 600) {
+        backToTop.classList.add("is-visible");
+      } else {
+        backToTop.classList.remove("is-visible");
+      }
     }
   }
 
