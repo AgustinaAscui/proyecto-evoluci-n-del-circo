@@ -1129,3 +1129,40 @@ blockquote {
     animation: none;
   }
 }
+
+
+/* ===============================
+   21. NOTAS METODOLÓGICAS
+================================= */
+
+.method-note {
+  max-width: 980px;
+  margin: 1rem auto 3rem auto;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent-light);
+  border-radius: 0 var(--radius-small) var(--radius-small) 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.method-note strong {
+  color: var(--text-soft);
+}
+
+.reporter-note {
+  max-width: 850px;
+  margin: 2.5rem auto 0 auto;
+  padding: 1.2rem 1.4rem;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.reporter-note p {
+  color: var(--text-soft);
+  margin-bottom: 0;
+  text-align: left;
+}
